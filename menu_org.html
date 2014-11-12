@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="icon" href="/seisnueve.ico" type="image/x-icon"/>
+
+	<link rel="stylesheet" type="text/css" href="estilos.css" media="screen"/>
+	<link rel="stylesheet" href="css/animated-menu.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style2.css" />
+	<link rel="shortcut icon" href="tittus.ico">
+
+	<script src="js/modernizr.custom.63321.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.dropdown.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51595503-1', 'tittuspizza.ec');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+	<script type="text/javascript">
+		$( function() {
+			$( '#cd-dropdown' ).dropdown({
+				gutter : 1,
+				delay : 10,
+				random : true
+			});
+		});
+	</script>
+
+	<script type="text/javascript" src="js/jquery.pikachoose.min.js"></script>
+	<script language="javascript">
+		$(document).ready(function (){
+			$("#pikame").PikaChoose({
+				showCaption:false
+			});
+		});
+	</script>
+
+	<script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
+	<script src="js/animated-menu.js" type="text/javascript"></script>
+
+	<link rel="stylesheet" href="css/swipebox.css">
+	<script src="js/ios-orientationchange-fix.js"></script>
+	<script src="js/jquery.swipebox.js"></script>
+	<script type="text/javascript">
+		;( function( $ ) {
+
+			/* Basic Gallery */
+			$( '.swipebox' ).swipebox();
+			
+			/* Video */
+			$( '.swipebox-video' ).swipebox();
+
+			/* Dynamic Gallery */
+			$( '#gallery' ).click( function( e ) {
+				e.preventDefault();
+				$.swipebox( [
+					{ href : 'http://swipebox.csag.co/mages/image-1.jpg', title : 'My Caption' },
+					{ href : 'http://swipebox.csag.co/images/image-2.jpg', title : 'My Second Caption' }
+				] );
+			} );
+
+		} )( jQuery );
+	</script>
+
+
+
+
+<title>Tittus Pizza</title>
+</head>
+
+<body>
+
+
+
+
+
+	<div id="layout">
+
+	<div id="lateral_izq">
+				<div id="logotipo_tittus">
+					<img src="img/logotipo_tittus_pizza_carcelen_quito_ecuador.jpg" />
+				</div>
+
+<!--				<div class="expandir">
+					<form name="prueba" action="redirect.php">
+					<select name="lista "id="cd-dropdown" class="cd-select" >
+						<option value="-1" selected onchange="document.prueba.submit();">Inicio</option>
+						<option value="1" >Inicio</option>
+						<option value="3" >Noticias Tittus</option>
+						<option value="4" >Nuestras Pizzas</option>
+						<option value="5" >Sonrisas de sabor</option>
+						<option value="6" >Pedidos Online</option>
+					</select>
+					</form>
+				</div>
+-->
+
+	</div>
+
+
+
+
+	<div id="lateral_der">
+
+
+		<header>
+			<div class="menu_principal">
+				<div class="menu_superior_ul">
+					<div class="menu_superior_li yellow">
+						<p><a href="index.html">Tittus<br/>Inicio</a></p>
+						<p class="subtext"><img src="img/tito_peq.png" /></p>
+					</div>
+					<div class="menu_superior_li yellow">
+						<p><a href="noticias.html">Tittus Empresa</a></p>
+						<p class="subtext">Conozca más sobre nosotros</p>
+					</div>
+					<div class="menu_superior_li yellow">
+						<p><a href="eventos.html">Tittus Eventos</a></p>
+						<p class="subtext">Para todo compromiso social</p>
+					</div>
+					<div class="menu_superior_li yellow">
+						<p><a href="juegos.html">Tittus Diversión</a></p>
+						<p class="subtext">Diviértete con Tito</p>
+					</div>
+					<div class="menu_superior_li yellow">
+						<p><a href="menu.html">Tittus <br/> Menú</a></p>
+						<p class="subtext">Disfrute de nuestras variedades</p>
+					</div>
+					<div class="menu_superior_li yellow">
+						<p><a href="promociones.html">Tittus Promociones</a></p>
+						<p class="subtext">Los mejores descuentos clientes</p>
+					</div>
+					<div class="menu_superior_li yellow">
+						<p><a href="online.html">Tittus Pedidos</a></p>
+						<p class="subtext">Haga su pedido desde nuestra web</p>
+					</div>
+				</div>
+			</div>
+
+			<a href="https://www.facebook.com/PizzaTittus"><img style="position:absolute; margin-left:800px; z-index:90;" src="img/facebookSiguenos.png" /></a>
+
+		</header>
+
+
+
+			<div id="principal_tittus_pizza">
+
+
+				<div id="menu_tittus_pizza">
+					<div class="contenedor_menu">
+						<div class="catalogo_pizza">
+							<div class="descripcion_menu">
+								<h2 class="descripcion_titulo">Tittus Deluxe</h2>
+								<a href="img/deluxe_tittus.png" class="swipebox" title="Tittus Deluxe">
+								<img src="img/deluxe_tittus_peg.png"/></a>
+								<p>Queso, Pepperoni, Tocino, Champiñones,Orégano</p><br/>
+								<p>Personal: 4.90 usd</p>
+								<p>Mediana: 14.70 usd</p>
+								<p>Familiar: 17.50 usd</p>
+								<a class="mas" href="online.html">Pedir a domicilio</a></p>
+							</div>
+						</div>
+
+						<div class="catalogo_pizza">
+							<div class="descripcion_menu">
+								<h2 class="descripcion_titulo">Tittus Napolitana</h2>
+								<a href="img/napolitana_tittus.png" class="swipebox" title="Tittus Napolitana">
+								<img src="img/napolitana_tittus_peg.png"/></a>
+								<p>Queso, Jamón,<br /> Tomate, Orégano</p><br/>
+								<p>Personal: 3.90 usd</p>
+								<p>Mediana: 12.50 usd</p>
+								<p>Familiar: 14.50 usd</p>
+								<a class="mas" href="online.html">Pedir a domicilio</a></p>
+							</div>
+						</div>
+						
+						<div class="catalogo_pizza">
+							<div class="descripcion_menu">
+								<h2 class="descripcion_titulo">Tittus Jamón Champiñones</h2>
+								<a href="img/jamon_champinones_tittus.png" class="swipebox" title="Tittus Jamón Champiñones">
+								<img src="img/jamon_champinones_tittus_peg.png"/></a>
+								<p>Queso, Jamón, Champiñones, Orégano</p><br/>
+								<p>Personal: 4.50 usd</p>
+								<p>Mediana: 14.00 usd</p>
+								<p>Familiar: 15.99 usd</p>
+								<a class="mas" href="online.html">Pedir a domicilio</a></p>
+							</div>
+						</div>
+
+						<div class="catalogo_pizza">
+							<div class="descripcion_menu">
+								<h2 class="descripcion_titulo">Tittus Clásica</h2><br/><br/>
+								<a href="img/clasica_tittus.png" class="swipebox" title="Tittus Clásica">
+								<img src="img/clasica_tittus_peg.png"/></a>
+								<p>Queso, Jamón, Pepperoni, Salami, Pimiento</p><br/>
+								<p>Personal: 4.25 usd</p>
+								<p>Mediana: 13.25 usd</p>
+								<p>Familiar: 14.99 usd</p>
+								<a class="mas" href="online.html">Pedir a domicilio</a></p>
+							</div>
+						</div>
+
+						<div class="catalogo_pizza">
+							<div class="descripcion_menu">
+								<h2 class="descripcion_titulo">Tittus Campestre</h2>
+								<a href="img/campestre_tittus.png" class="swipebox" title="Tittus Campestre">
+								<img src="img/campestre_tittus_peg.png"/></a>
+								<p>Queso, Tocino, Choclo, Orégano</p><br/>
+								<p>Personal: 4.80 usd</p>
+								<p>Mediana: 13.50 usd</p>
+								<p>Familiar: 16.50 usd</p>
+								<a class="mas" href="online.html">Pedir a domicilio</a></p>
+							</div>
+						</div>	
+
+						<div class="catalogo_pizza">
+							<div class="descripcion_menu">
+								<h2 class="descripcion_titulo">Tittus Hawaiana</h2>
+								<a href="img/hawaiana_tittus.png" class="swipebox" title="Tittus Hawaiana">
+								<img src="img/hawaiana_tittus_peg.png"/></a>
+								<p>Queso, Jamón, Piña</p><br/>
+								<p>Personal: 3.90 usd</p>
+								<p>Mediana: 12.50 usd</p>
+								<p>Familiar: 14.50 usd</p>
+								<a class="mas" href="online.html">Pedir a domicilio</a></p>
+							</div>
+						</div>	
+
+						<div class="catalogo_pizza">
+							<div class="descripcion_menu">
+								<h2 class="descripcion_titulo">Tittus Pepperoni Champiñones</h2>
+								<a href="img/pepperoni_champiniones_tittus.png" class="swipebox" title="Tittus Pepperoni Champiñones">
+								<img src="img/pepperoni_champiniones_tittus_peg.png"/></a>
+								<p>Queso, Pepperoni, Champiñones, Orégano</p><br/>
+								<p>Personal: 4.60 usd</p>
+								<p>Mediana: 13.50 usd</p>
+								<p>Familiar: 17.30 usd</p>
+								<a class="mas" href="online.html">Pedir a domicilio</a></p>
+							</div>
+						</div>					
+
+						<div class="catalogo_pizza">
+							<div class="descripcion_menu">
+								<h2 class="descripcion_titulo">Tittus Pollo con Champiñones</h2>
+								<a href="img/pollo__champinones_tittus.png" class="swipebox" title="Tittus Pollo con Champiñones">
+								<img src="img/pollo__champinones_tittus_peg.png"/></a>
+								<p>Queso, Extra Pollo, Champiñones, Orégano</p><br/><br/>
+								<p>Personal: 3.95 usd</p>
+								<p>Mediana: 13.00 usd</p>
+								<p>Familiar: 14.99 usd</p>
+								<a class="mas" href="online.html">Pedir a domicilio</a></p>
+							</div>
+						</div>
+
+						<div class="catalogo_pizza">
+							<div class="descripcion_menu">
+								<h2 class="descripcion_titulo">Tittus Salami</h2>
+								<a href="img/salami_tittus.png" class="swipebox" title="Tittus Salami">
+								<img src="img/salami_tittus_peg.png"/></a>
+								<p>Queso, Extra Salami, Orégano</p><br/>
+								<p>Personal: 3.90 usd</p>
+								<p>Mediana: 13.00 usd</p>
+								<p>Familiar: 14.99 usd</p>
+								<a class="mas" href="online.html">Pedir a domicilio</a></p>
+							</div>
+						</div>
+
+						<div class="catalogo_pizza">
+							<div class="descripcion_menu">
+								<h2 class="descripcion_titulo">Tittus Pepperoni</h2>
+								<a href="img/pepperoni_tittus.png" class="swipebox" title="Tittus Pepperoni">
+								<img src="img/pepperoni_tittus_peg.png"/></a>
+								<p>Queso, Extra Pepperoni, Orégano</p><br/>
+								<p>Personal: 3.90 usd</p>
+								<p>Mediana: 13.00 usd</p>
+								<p>Familiar: 14.99 usd</p>
+								<a class="mas" href="online.html">Pedir a domicilio</a></p>
+							</div>
+						</div>
+
+						<div class="catalogo_pizza">
+							<div class="descripcion_menu">
+								<h2 class="descripcion_titulo">Tittus Pollo</h2>
+								<a href="img/pollo_tittus.png" class="swipebox" title="Tittus Pollo">
+								<img src="img/pollo_tittus_peg.png"/></a>
+								<p>Queso, Extra Pollo, Orégano</p><br/>
+								<p>Personal: 3.95 usd</p>
+								<p>Mediana: 13.00 usd</p>
+								<p>Familiar: 14.99 usd</p>
+								<a class="mas" href="online.html">Pedir a domicilio</a></p>
+							</div>
+						</div>
+
+						<div class="catalogo_pizza">
+							<div class="descripcion_menu">
+								<h2 class="descripcion_titulo">Tittus Tocino</h2>
+								<a href="img/tocino_tittus.png" class="swipebox" title="Tittus Tocino">
+								<img src="img/tocino_tittus_peg.png"/></a>
+								<p>Queso, Tocino, Jamón, Orégano</p><br/>
+								<p>Personal: 4.75 usd</p>
+								<p>Mediana: 14.00 usd</p>
+								<p>Familiar: 17.30 usd</p>
+								<a class="mas" href="online.html">Pedir a domicilio</a></p>
+							</div>
+						</div>						
+
+						
+						
+						<div class="catalogo_pizza">
+							<div class="descripcion_menu">
+								<h2 class="descripcion_titulo">Tittus Super Tittus</h2>
+								<a href="img/super_tittus_tittus.png" class="swipebox" title="Tittus Super Tittus">
+								<img src="img/super_tittus_tittus_peg.png"/></a>
+								<p>Queso, Pepperoni, Jamón, Champiñones, Salami, Aceitunas, Pimiento, Orégano</p><br/>
+								<p>Personal: 5.30 usd</p>
+								<p>Mediana: 14.90 usd</p>
+								<p>Familiar: 18.50 usd</p>
+								<a class="mas" href="online.html">Pedir a domicilio</a></p>
+							</div>
+						</div>													
+
+						<div class="catalogo_pizza">
+							<div class="descripcion_menu">
+								<h2 class="descripcion_titulo">Tittus Vegetariana</h2><br/>
+								<a href="img/vegetariana_tittus.png" class="swipebox" title="Tittus Vegetariana">
+								<img src="img/vegetariana_tittus_peg.png"/></a>
+								<p>Queso, Champiñones, Aceitunas, Pimiento, Cebolla</p><br/>
+								<p>Personal: 3.90 usd</p>
+								<p>Mediana: 13.00 usd</p>
+								<p>Familiar: 15.50 usd</p>
+								<a class="mas" href="online.html">Pedir a domicilio</a></p>
+							</div>
+						</div>
+
+						<div class="catalogo_pizza">
+							<div class="descripcion_menu">
+								<h2 class="descripcion_titulo">Tittus Jamón</h2>
+								<a href="img/jamon_tittus.png" class="swipebox" title="Tittus Jamón">
+								<img src="img/jamon_tittus_peg.png"/></a>
+								<p>Queso, Extra Jamón, Orégano</p><br/>
+								<p>Personal: 3.75 usd</p>
+								<p>Mediana: 11.50 usd</p>
+								<p>Familiar: 13.99 usd</p>
+								<a class="mas" href="online.html">Pedir a domicilio</a></p>
+							</div>
+						</div>
+
+						<div class="catalogo_pizza">
+							<div class="descripcion_menu">
+								<h2 class="descripcion_titulo">Ensalada Tittus</h2><br/>
+								<a href="img/ensalada_tittus.png" class="swipebox" title="Ensalada Tittus">
+								<img src="img/ensalada_tittus_peg.png"/></a>
+								<p>Lechuga, Tomate, Queso, Jamón, Aceitunas y Vinagreta</p><br/>
+								<p>Precio: 2.75</p>
+								<a class="mas" href="online.html">Pedir a domicilio</a></p>
+							</div>
+						</div>
+						
+
+						<div class="catalogo_pizza">
+							<div class="descripcion_menu">
+								<h2 class="descripcion_titulo">Pan con ajo especial 4 unidades</h2>
+								<a href="img/pan_ajo_4_unid_especial_tittus.png" class="swipebox" title="Pan con ajo especial 4 unidades">
+								<img src="img/pan_ajo_4_unid_especial_tittus_peg.png"/></a>
+								<p>Precio: 2.50 usd </p>
+								<a class="mas" href="online.html">Pedir a domicilio</a></p>
+							</div>						
+						</div>
+
+						<div class="catalogo_pizza">
+							<div class="descripcion_menu">
+								<h2 class="descripcion_titulo">Pan con ajo 4 unidades</h2><br/><br/>
+								<a href="img/pan_ajo_4_unid_tittus.png" class="swipebox" title="Pan con ajo 4 unidades">
+								<img src="img/pan_ajo_4_unid_tittus_peg.png"/></a>
+								<p>Precio: 1.50 usd </p>
+								<a class="mas" href="online.html">Pedir a domicilio</a></p>
+							</div>						
+						</div>
+
+						<div class="catalogo_pizza">
+							<div class="descripcion_menu">
+								<h2 class="descripcion_titulo">Alitas BBQ</h2>
+								<a href="img/alitas_bbq.png" class="swipebox" title="Alitas BBQ">
+								<img src="img/alitas_bbq_peg.png"/></a>
+								<p>Precio: 4.50 usd </p>
+								<a class="mas" href="online.html">Pedir a domicilio</a></p>
+							</div>						
+						</div>
+
+
+						<div class="catalogo_pizza">
+							<div class="descripcion_menu">
+								<h2 class="descripcion_titulo">Bebidas</h2>
+								<p>3 litros: 2.90 usd </p>
+								<p>2 litros: 1.80 usd </p>
+								<p>1,75 litros: 1.75 usd </p>
+								<p>1,35 litros: 1.55 usd </p>
+								<p>Medianas: 0.60 usd </p>
+								<p>Personales 400cc: 0.70 usd </p>
+								<p>Aguas: 0.70 usd </p>
+								<p>Nestea peq.: 0.99 usd </p>
+								<p>Nestea grd.: 1.80 usd </p>
+								<p>Jugos del Valle: 0.80 usd </p>
+								<p>Club peq.: 1.50 usd </p>
+								<p>Pilsener peq: 1.30 usd </p>
+								<a class="mas" href="online.html">Pedir a domicilio</a></p>
+							</div>						
+						</div>
+
+					</div>                                                
+				</div>
+			</div>
+
+	</div>
+
+
+		<div class="destacados">
+			<img src="img/destacado_amas_pizza.png" />
+		</div>
+
+	</div>
+
+  <footer>
+      
+  </footer>
+
+
+</body>
+
+
+</html>
+

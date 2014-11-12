@@ -1,0 +1,66 @@
+.menu_principal .menu_superior_ul{
+	margin:0;
+	padding:0;
+	z-index:100;
+}
+
+
+@media screen and (max-width:700px){
+.menu_principal .menu_superior_li{
+	width:30px;
+	height:37.5px;
+	float:right;
+        font-size: .6em;
+	margin-right:10px;
+	color:#191919;
+	text-align:center;
+	overflow:hidden;
+}
+}
+
+
+@media screen and (max-width:960px){
+.menu_principal .menu_superior_li{
+	width:60px;
+	height:37.5px;
+	float:right;
+        font-size: .8em;
+	margin-right:10px;
+	color:#191919;
+	text-align:center;
+	overflow:hidden;
+}
+}
+@media screen and (min-width:961px){
+.menu_principal .menu_superior_li{
+	width:100px;
+	height:37.5px;
+	float:right;
+	margin-right:10px;
+	color:#191919;
+	text-align:center;
+	overflow:hidden;
+}
+}
+
+
+
+.menu_principal a{
+	color:#000;
+	text-decoration:none;
+}
+
+.menu_principal p{
+	padding:2px 5px;
+}
+
+	.menu_principal .subtext{
+		padding-top:15px;
+	}
+
+/*Menu Color Classes*/
+.green{background:#6AA63B url('../images/green-item-bg.jpg') top left no-repeat;}
+.yellow{background:#FBC700 url('../images/yellow-item-bg2.jpg') top left no-repeat;}
+.red{background:#D52100 url('../images/red-item-bg.jpg') top left no-repeat;}
+.purple{background:#5122B4 url('../images/purple-item-bg.jpg') top left no-repeat;}
+.blue{background:#0292C0 url('../images/blue-item-bg.jpg') top left no-repeat;}

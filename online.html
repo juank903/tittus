@@ -1,0 +1,1276 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="icon" href="/seisnueve.ico" type="image/x-icon"/>
+
+	<link rel="stylesheet" type="text/css" href="estilos_responsive.css" media="screen"/>
+	<link rel="stylesheet" href="css/animated-menu-responsive.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style2.css" />
+	<link rel="stylesheet" type="text/css" href="css/responsiveslides.css" />        
+	<link rel="shortcut icon" href="tittus.ico">
+
+	<script src="js/modernizr.custom.63321.js"></script>
+	<script type="text/javascript" src="js/jquery-1-9-1.js"></script>
+        <script src="js/responsiveslides.js"></script>
+	<script src="js/jquery.easing.min-1-3.js"></script>
+
+	<!--<script type="text/javascript" src=" https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>-->
+
+	<script type="text/javascript" src="js/jquery.dropdown.js"></script>
+	<script type="text/javascript" src="js/jquery.zaccordion.js"></script>
+        <script type="text/javascript" src="js/pedido.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51595503-1', 'tittuspizza.ec');
+  ga('send', 'pageview');
+
+</script>
+
+
+	<script type="text/javascript">
+		$( function() {
+			$('#cd-dropdown').dropdown({
+				gutter : 1,
+				delay : 10,
+				random : true
+			});
+		});
+	</script>
+
+	<script type="text/javascript" src="js/jquery.pikachoose.min.js"></script>
+	<script language="javascript">
+            $(function () {
+              // Slideshow 1
+              $("#slider1").responsiveSlides({
+                maxwidth: 1800,
+                speed: 800
+              });
+            });
+	</script>
+	<script src="js/animated-menu.js" type="text/javascript"></script>
+
+<script>
+$(document).ready(function() {
+	$("#banner_ul").zAccordion({
+		slideWidth: 600,
+		width: 914,
+		height: 165,
+		timeout: 3000,
+		slideClass: "frame"
+	});
+});
+</script>
+
+
+<title>Tittus Pizza Pedidos, La mejor pizza en Carcelén, Pusuquí, Mitad del Mundo, Condado, Quito, Salami, Pollo, Jamón</title>
+</head>
+
+<body>
+    <div id="layout">
+        <div id="superior">
+            <div id="barra_superior">
+                <div id="lateral_izq">
+                    <div id="logotipo_tittus">
+                        <img src="img/logotipo_tittus_pizza_carcelen_quito_ecuador_peq.jpg" />
+                    </div>
+                    <a href="https://www.facebook.com/PizzaTittus"><img style=" margin-top:5%; width:60%;" src="img/facebookSiguenos.png" /></a>
+                </div>
+                <div id="lateral_der">
+                    <div class="menu_principal">
+                        <div class="menu_superior_ul">
+                            <div class="menu_superior_li yellow">
+                                <p><a href="online.html">Tittus Pedidos</a></p>
+                                <p class="subtext">Haga su pedido desde nuestra web</p>
+                            </div>                            
+                            <div class="menu_superior_li yellow">
+                                <p><a href="promociones.html">Tittus Promociones</a></p>
+                                <p class="subtext">Los mejores descuentos clientes</p>
+                            </div>                            
+                            <div class="menu_superior_li yellow">
+                                <p><a href="menu.html">Tittus <br/> Menú</a></p>
+                                <p class="subtext">Disfrute de nuestras variedades</p>
+                            </div>                            
+                            <div class="menu_superior_li yellow">
+                                <p><a href="juegos.html">Tittus Diversión</a></p>
+                                <p class="subtext">Diviértete con Tito</p>
+                            </div>                            
+                            <div class="menu_superior_li yellow">
+                                <p><a href="trabajo.html">Tittus Contactos</a></p>
+                                <p class="subtext">Contacta con nosotros</p>
+                            </div>                            
+                            <div class="menu_superior_li yellow">
+                                <p><a href="noticias.html">Tittus Empresa</a></p>
+                                <p class="subtext">Conozca más sobre nosotros</p>
+                            </div>                            
+                            <div class="menu_superior_li yellow">
+                                <p><a href="index.html">Tittus<br/>Inicio</a></p>
+                                <p class="subtext"><img src="img/tito_peq.png" /></p>
+                            </div>
+                        </div>
+                    </div>                
+                </div>  
+            </div>
+            <div id="contenedor_slider1">
+                <ul id="slider1" >
+                    <li><img src="img/banner_trabajo_tittus.png"/></li>
+                    <li><img src="img/banner_trabajo_tittus_2.png"/></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="principal_tittus_pizza_contenido">
+				<div id="formularios_tittus_pizza">
+					<form class="formularios" method="post" action="pedido.php">
+						<div id="carrito"><p>Su compra</p>
+						<input class="total" type="text" name="valor_total_pedido" id="valor_total_pedido" value="0" readonly="readonly"/><br/><br/>
+						<button type="submit" name="enviar" value="enviar">enviar</button></div>
+
+						<br /><p>Para brindarle un buen servicio recuerde que TODOS los campos son obligatorios</p><br />
+
+						<img src="img/tarde_amigos_tittus_horarios_2.png" />
+						<p class="etiqueta">Apellidos y nombres</p>
+						<input type="text" name="nombres" /><br/>
+						<p class="etiqueta">Dirección de entrega</p>
+						<input type="text" name="direccion" /><br/>
+						<p class="etiqueta">CI / RUC</p>
+						<input type="text" name="ruc" /><br/>
+						<p class="etiqueta">Teléfono</p>
+						<input type="text" name="telefono" /><br/>
+						<p class="etiqueta">Email</p>
+						<input type="text" name="email" /><br/>
+
+						<p class="etiqueta">Forma de Pago</p>
+						<select name="pago">
+						<option>Efectivo</option>
+						<option>T. Crédito</option>
+						</select><br /><br /><br />
+
+						<p>Selecione su pedido</p>
+
+						<div class="tabla" id="pedidos">
+							<div class="columna">
+								<div class="fila">
+									<div class="celda nombre">
+										Pizzas
+									</div>
+								
+								</div>
+								<div class="fila">
+									<div class="celda tipo">
+										<div class="celda sub_tipo">
+											Personal
+										</div>
+										<div class="celda sub_tipo">
+											Mediana
+										</div>
+										<div class="celda sub_tipo">
+											Familiar
+										</div>
+										
+									</div>
+
+								</div>
+								<div class="fila">
+									<div class="celda cantidad">
+												<div class="valor_cantidad">
+													Cant.
+												</div>
+									</div>
+								</div>
+
+								<div class="fila">
+									<div class="celda borrar">
+										<div class="borrar"></div>
+									</div>
+								</div>
+							</div>
+
+
+<!-- SECCION PIZZA DELUXE -->
+							<div class="columna">
+								<div class="fila">
+									<div class="celda nombre">
+										<div class="valor_nombre">
+											<input id="deluxe" class="check" type="checkbox" name="deluxe_pizza" value="1">Tittus Deluxe
+										</div>
+									</div>
+								
+								</div>
+								<div class="fila">
+									<div class="celda tipo">
+										<div class="celda sub_tipo">
+											<input class="radio" name="Deluxe" id="deluxe_rad_1" type="radio" value="4.90" />$4.90
+										</div>
+										<div class="celda sub_tipo">
+											<input class="radio" name="Deluxe" id="deluxe_rad_2" type="radio" value="14.70" />$14.70
+										</div>
+										<div class="celda sub_tipo">
+											<input class="radio" name="Deluxe" id="deluxe_rad_3" type="radio" value="17.50" />$17.50
+										</div>
+										
+									</div>
+
+								</div>
+								<div class="fila">
+									<div class="celda cantidad">
+										<div class="valor_cantidad">
+											<input type='button' value='-' id='deluxe_qtyminus' field='deluxe_quantity' />
+											<input id="deluxe_cant" type="text" name="deluxe_quantity" value="0" />
+											<input type='button' value='+' id='deluxe_qtyplus' field='deluxe_quantity' />
+										</div>
+									</div>
+								</div>
+								<div class="fila">
+									<div class="celda borrar">
+										<div class="borrar">
+											<input class="subtotal" id="deluxe_subtotal" type="hidden" name="deluxe_subtotal" value="0">
+											<button type="button" class="borrar" id="deluxe_clear" name="quitar_deluxe" value="C">X</button>
+										</div>
+									</div>
+								</div>
+
+
+
+
+<!-- SECCION PIZZA NAPOLITANA -->
+							<div class="columna">
+								<div class="fila">
+									<div class="celda nombre">
+										<div class="valor_nombre">
+											<input id="napolitana" class="check" type="checkbox" name="napolitana_pizza" value="3">Tittus Napolitana
+										</div>
+									</div>
+								
+								</div>
+								<div class="fila">
+									<div class="celda tipo">
+										<div class="celda sub_tipo">
+											<input class="radio" name="Napolitana" id="napolitana_rad_1" type="radio" value="3.90" />$3.90
+										</div>
+										<div class="celda sub_tipo">
+											<input class="radio" name="Napolitana" id="napolitana_rad_2" type="radio" value="12.50" />$12.50
+										</div>
+										<div class="celda sub_tipo">
+											<input class="radio" name="Napolitana" id="napolitana_rad_3" type="radio" value="14.50" />$14.50
+										</div>
+										
+									</div>
+
+								</div>
+								<div class="fila">
+									<div class="celda cantidad">
+										<div class="valor_cantidad">
+											<input type='button' value='-' id='napolitana_qtyminus' field='napolitana_quantity' />
+											<input id="napolitana_cant" type="text" name="napolitana_quantity" value="0" />
+											<input type='button' value='+' id='napolitana_qtyplus' field='napolitana_quantity' />
+										</div>
+									</div>
+								</div>
+								<div class="fila">
+									<div class="celda borrar">
+										<div class="borrar">
+											<input class="subtotal" id="napolitana_subtotal" type="hidden" name="napolitana_subtotal" value="0">
+											<button type="button" class="borrar" id="napolitana_clear" name="quitar_napolitana" value="C">X</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+
+
+
+
+
+
+
+<!-- SECCION PIZZA JAMON CHAMPINIONES -->
+							<div class="columna">
+								<div class="fila">
+									<div class="celda nombre">
+										<div class="valor_nombre">
+											<input id="jamonchampiniones" class="check" type="checkbox" name="jamonchampiniones_pizza" value="4">Tittus Jamón con Champiñones
+										</div>
+									</div>
+								
+								</div>
+								<div class="fila">
+									<div class="celda tipo">
+										<div class="celda sub_tipo">
+											<input class="radio" name="Jamonchampiniones" id="jamonchampiniones_rad_1" type="radio" value="4.50" />$4.50
+										</div>
+										<div class="celda sub_tipo">
+											<input class="radio" name="Jamonchampiniones" id="jamonchampiniones_rad_2" type="radio" value="14.00" />$14.00
+										</div>
+										<div class="celda sub_tipo">
+											<input class="radio" name="Jamonchampiniones" id="jamonchampiniones_rad_3" type="radio" value="15.99" />$15.99
+										</div>
+										
+									</div>
+
+								</div>
+								<div class="fila">
+									<div class="celda cantidad">
+										<div class="valor_cantidad">
+											<input type='button' value='-' id='jamonchampiniones_qtyminus' field='jamonchampiniones_quantity' />
+											<input id="jamonchampiniones_cant" type="text" name="jamonchampiniones_quantity" value="0" />
+											<input type='button' value='+' id='jamonchampiniones_qtyplus' field='jamonchampiniones_quantity' />
+										</div>
+									</div>
+								</div>
+								<div class="fila">
+									<div class="celda borrar">
+										<div class="borrar">
+											<input class="subtotal" id="jamonchampiniones_subtotal" type="hidden" name="jamonchampiniones_subtotal" value="0">
+											<button type="button" class="borrar" id="jamonchampiniones_clear" name="quitar_jamonchampiniones" value="C">X</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+
+
+
+
+
+
+
+<!-- SECCION PIZZA CLASICA -->
+							<div class="columna">
+								<div class="fila">
+									<div class="celda nombre">
+										<div class="valor_nombre">
+											<input id="clasica" class="check" type="checkbox" name="clasica_pizza" value="5">Tittus Clásica
+										</div>
+									</div>
+								
+								</div>
+								<div class="fila">
+									<div class="celda tipo">
+										<div class="celda sub_tipo">
+											<input class="radio" name="Clasica" id="clasica_rad_1" type="radio" value="4.25" />$4.25
+										</div>
+										<div class="celda sub_tipo">
+											<input class="radio" name="Clasica" id="clasica_rad_2" type="radio" value="13.25" />$13.25
+										</div>
+										<div class="celda sub_tipo">
+											<input class="radio" name="Clasica" id="clasica_rad_3" type="radio" value="14.99" />$14.99
+										</div>
+										
+									</div>
+
+								</div>
+								<div class="fila">
+									<div class="celda cantidad">
+										<div class="valor_cantidad">
+											<input type='button' value='-' id='clasica_qtyminus' field='clasica_quantity' />
+											<input id="clasica_cant" type="text" name="clasica_quantity" value="0" />
+											<input type='button' value='+' id='clasica_qtyplus' field='clasica_quantity' />
+										</div>
+									</div>
+								</div>
+								<div class="fila">
+									<div class="celda borrar">
+										<div class="borrar">
+											<input class="subtotal" id="clasica_subtotal" type="hidden" name="clasica_subtotal" value="0">
+											<button type="button" class="borrar" id="clasica_clear" name="quitar_clasica" value="C">X</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+
+
+
+
+
+<!-- SECCION PIZZA CAMPESTRE -->
+							<div class="columna">
+								<div class="fila">
+									<div class="celda nombre">
+										<div class="valor_nombre">
+											<input id="campestre" class="check" type="checkbox" name="campestre_pizza" value="6">Tittus Campestre
+										</div>
+									</div>
+								
+								</div>
+								<div class="fila">
+									<div class="celda tipo">
+										<div class="celda sub_tipo">
+											<input class="radio" name="Campestre" id="campestre_rad_1" type="radio" value="4.80" />$4.80
+										</div>
+										<div class="celda sub_tipo">
+											<input class="radio" name="Campestre" id="campestre_rad_2" type="radio" value="13.50" />$13.50
+										</div>
+										<div class="celda sub_tipo">
+											<input class="radio" name="Campestre" id="campestre_rad_3" type="radio" value="16.50" />$16.50
+										</div>
+										
+									</div>
+
+								</div>
+								<div class="fila">
+									<div class="celda cantidad">
+										<div class="valor_cantidad">
+											<input type='button' value='-' id='campestre_qtyminus' field='campestre_quantity' />
+											<input id="campestre_cant" type="text" name="campestre_quantity" value="0" />
+											<input type='button' value='+' id='campestre_qtyplus' field='campestre_quantity' />
+										</div>
+									</div>
+								</div>
+								<div class="fila">
+									<div class="celda borrar">
+										<div class="borrar">
+											<input class="subtotal" id="campestre_subtotal" type="hidden" name="campestre_subtotal" value="0">
+											<button type="button" class="borrar" id="campestre_clear" name="quitar_campestre" value="C">X</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+
+
+
+
+<!-- SECCION PIZZA HAWAIANA -->
+							<div class="columna">
+								<div class="fila">
+									<div class="celda nombre">
+										<div class="valor_nombre">
+											<input id="hawaiana" class="check" type="checkbox" name="hawaiana_pizza" value="7">Tittus Hawaina
+										</div>
+									</div>
+								
+								</div>
+								<div class="fila">
+									<div class="celda tipo">
+										<div class="celda sub_tipo">
+											<input class="radio" name="Hawaiana" id="hawaiana_rad_1" type="radio" value="3.90" />$3.90
+										</div>
+										<div class="celda sub_tipo">
+											<input class="radio" name="Hawaiana" id="hawaiana_rad_2" type="radio" value="12.50" />$12.50
+										</div>
+										<div class="celda sub_tipo">
+											<input class="radio" name="Hawaiana" id="hawaiana_rad_3" type="radio" value="14.50" />$14.50
+										</div>
+										
+									</div>
+
+								</div>
+								<div class="fila">
+									<div class="celda cantidad">
+										<div class="valor_cantidad">
+											<input type='button' value='-' id='hawaiana_qtyminus' field='hawaiana_quantity' />
+											<input id="hawaiana_cant" type="text" name="hawaiana_quantity" value="0" />
+											<input type='button' value='+' id='hawaiana_qtyplus' field='hawaiana_quantity' />
+										</div>
+									</div>
+								</div>
+								<div class="fila">
+									<div class="celda borrar">
+										<div class="borrar">
+											<input class="subtotal" id="hawaiana_subtotal" type="hidden" name="hawaiana_subtotal" value="0">
+											<button type="button" class="borrar" id="hawaiana_clear" name="quitar_hawaiana" value="C">X</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+
+
+
+
+
+
+<!-- SECCION PIZZA PEPPERONI CHAMPIÑONES -->
+							<div class="columna">
+								<div class="fila">
+									<div class="celda nombre">
+										<div class="valor_nombre">
+											<input id="pepperonichampiniones" class="check" type="checkbox" name="pepperonichampiniones_pizza" value="8">Tittus Pepperoni Champiñones
+										</div>
+									</div>
+								
+								</div>
+								<div class="fila">
+									<div class="celda tipo">
+										<div class="celda sub_tipo">
+											<input class="radio" name="Pepperonichampiniones" id="pepperonichampiniones_rad_1" type="radio" value="4.60" />$4.60
+										</div>
+										<div class="celda sub_tipo">
+											<input class="radio" name="Pepperonichampiniones" id="pepperonichampiniones_rad_2" type="radio" value="13.50" />$13.50
+										</div>
+										<div class="celda sub_tipo">
+											<input class="radio" name="Pepperonichampiniones" id="pepperonichampiniones_rad_3" type="radio" value="17.30" />$17.30
+										</div>
+										
+									</div>
+
+								</div>
+								<div class="fila">
+									<div class="celda cantidad">
+										<div class="valor_cantidad">
+											<input type='button' value='-' id='pepperonichampiniones_qtyminus' field='pepperonichampiniones_quantity' />
+											<input id="pepperonichampiniones_cant" type="text" name="pepperonichampiniones_quantity" value="0" />
+											<input type='button' value='+' id='pepperonichampiniones_qtyplus' field='pepperonichampiniones_quantity' />
+										</div>
+									</div>
+								</div>
+								<div class="fila">
+									<div class="celda borrar">
+										<div class="borrar">
+											<input class="subtotal" id="pepperonichampiniones_subtotal" type="hidden" name="pepperonichampiniones_subtotal" value="0">
+											<button type="button" class="borrar" id="pepperonichampiniones_clear" name="quitar_pepperonichampiniones" value="C">X</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+
+
+
+
+
+
+<!-- SECCION PIZZA POLLO CHAMPIÑONES -->
+							<div class="columna">
+								<div class="fila">
+									<div class="celda nombre">
+										<div class="valor_nombre">
+											<input id="pollochampiniones" class="check" type="checkbox" name="pollochampiniones_pizza" value="9">Tittus Pollo con Champiñones
+										</div>
+									</div>
+								
+								</div>
+								<div class="fila">
+									<div class="celda tipo">
+										<div class="celda sub_tipo">
+											<input class="radio" name="Pollochampiniones" id="pollochampiniones_rad_1" type="radio" value="3.95" />$3.95
+										</div>
+										<div class="celda sub_tipo">
+											<input class="radio" name="Pollochampiniones" id="pollochampiniones_rad_2" type="radio" value="13.00" />$13.00
+										</div>
+										<div class="celda sub_tipo">
+											<input class="radio" name="Pollochampiniones" id="pollochampiniones_rad_3" type="radio" value="14.99" />$14.99
+										</div>
+										
+									</div>
+
+								</div>
+								<div class="fila">
+									<div class="celda cantidad">
+										<div class="valor_cantidad">
+											<input type='button' value='-' id='pollochampiniones_qtyminus' field='pollochampiniones_quantity' />
+											<input id="pollochampiniones_cant" type="text" name="pollochampiniones_quantity" value="0" />
+											<input type='button' value='+' id='pollochampiniones_qtyplus' field='pollochampiniones_quantity' />
+										</div>
+									</div>
+								</div>
+								<div class="fila">
+									<div class="celda borrar">
+										<div class="borrar">
+											<input class="subtotal" id="pollochampiniones_subtotal" type="hidden" name="pollochampiniones_subtotal" value="0">
+											<button type="button" class="borrar" id="pollochampiniones_clear" name="quitar_pollochampiniones" value="C">X</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+
+
+
+
+
+<!-- SECCION PIZZA SALAMI -->
+							<div class="columna">
+								<div class="fila">
+									<div class="celda nombre">
+										<div class="valor_nombre">
+											<input id="salami" class="check" type="checkbox" name="salami_pizza" value="10">Tittus Salami
+										</div>
+									</div>
+								
+								</div>
+								<div class="fila">
+									<div class="celda tipo">
+										<div class="celda sub_tipo">
+											<input class="radio" name="Salami" id="salami_rad_1" type="radio" value="3.90" />$3.90
+										</div>
+										<div class="celda sub_tipo">
+											<input class="radio" name="Salami" id="salami_rad_2" type="radio" value="13.00" />$13.00
+										</div>
+										<div class="celda sub_tipo">
+											<input class="radio" name="Salami" id="salami_rad_3" type="radio" value="14.99" />$14.99
+										</div>
+										
+									</div>
+
+								</div>
+								<div class="fila">
+									<div class="celda cantidad">
+										<div class="valor_cantidad">
+											<input type='button' value='-' id='salami_qtyminus' field='salami_quantity' />
+											<input id="salami_cant" type="text" name="salami_quantity" value="0" />
+											<input type='button' value='+' id='salami_qtyplus' field='salami_quantity' />
+										</div>
+									</div>
+								</div>
+								<div class="fila">
+									<div class="celda borrar">
+										<div class="borrar">
+											<input class="subtotal" id="salami_subtotal" type="hidden" name="salami_subtotal" value="0">
+											<button type="button" class="borrar" id="salami_clear" name="quitar_salami" value="C">X</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+
+
+
+
+
+<!-- SECCION PIZZA PEPPERONI -->
+							<div class="columna">
+								<div class="fila">
+									<div class="celda nombre">
+										<div class="valor_nombre">
+											<input id="pepperoni" class="check" type="checkbox" name="pepperoni_pizza" value="9">Tittus Pepperoni
+										</div>
+									</div>
+								
+								</div>
+								<div class="fila">
+									<div class="celda tipo">
+										<div class="celda sub_tipo">
+											<input class="radio" name="Pepperoni" id="pepperoni_rad_1" type="radio" value="3.90" />$3.90
+										</div>
+										<div class="celda sub_tipo">
+											<input class="radio" name="Pepperoni" id="pepperoni_rad_2" type="radio" value="13.00" />$13.00
+										</div>
+										<div class="celda sub_tipo">
+											<input class="radio" name="Pepperoni" id="pepperoni_rad_3" type="radio" value="14.99" />$14.99
+										</div>
+										
+									</div>
+
+								</div>
+								<div class="fila">
+									<div class="celda cantidad">
+										<div class="valor_cantidad">
+											<input type='button' value='-' id='pepperoni_qtyminus' field='pepperoni_quantity' />
+											<input id="pepperoni_cant" type="text" name="pepperoni_quantity" value="0" />
+											<input type='button' value='+' id='pepperoni_qtyplus' field='pepperoni_quantity' />
+										</div>
+									</div>
+								</div>
+								<div class="fila">
+									<div class="celda borrar">
+										<div class="borrar">
+											<input class="subtotal" id="pepperoni_subtotal" type="hidden" name="pepperoni_subtotal" value="0">
+											<button type="button" class="borrar" id="pepperoni_clear" name="quitar_pepperoni" value="C">X</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+
+
+
+<!-- SECCION PIZZA POLLO -->
+							<div class="columna">
+								<div class="fila">
+									<div class="celda nombre">
+										<div class="valor_nombre">
+											<input id="pollo" class="check" type="checkbox" name="pollo_pizza" value="9">Tittus Pollo
+										</div>
+									</div>
+								
+								</div>
+								<div class="fila">
+									<div class="celda tipo">
+										<div class="celda sub_tipo">
+											<input class="radio" name="Pollo" id="pollo_rad_1" type="radio" value="3.95" />$3.95
+										</div>
+										<div class="celda sub_tipo">
+											<input class="radio" name="Pollo" id="pollo_rad_2" type="radio" value="13.00" />$13.00
+										</div>
+										<div class="celda sub_tipo">
+											<input class="radio" name="Pollo" id="pollo_rad_3" type="radio" value="14.99" />$14.99
+										</div>
+										
+									</div>
+
+								</div>
+								<div class="fila">
+									<div class="celda cantidad">
+										<div class="valor_cantidad">
+											<input type='button' value='-' id='pollo_qtyminus' field='pollo_quantity' />
+											<input id="pollo_cant" type="text" name="pollo_quantity" value="0" />
+											<input type='button' value='+' id='pollo_qtyplus' field='pollo_quantity' />
+										</div>
+									</div>
+								</div>
+								<div class="fila">
+									<div class="celda borrar">
+										<div class="borrar">
+											<input class="subtotal" id="pollo_subtotal" type="hidden" name="pollo_subtotal" value="0">
+											<button type="button" class="borrar" id="pollo_clear" name="quitar_pollo" value="C">X</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+
+
+
+
+
+<!-- SECCION PIZZA TOCINO -->
+							<div class="columna">
+								<div class="fila">
+									<div class="celda nombre">
+										<div class="valor_nombre">
+											<input id="tocino" class="check" type="checkbox" name="tocino_pizza" value="2">Tittus Tocino
+										</div>
+									</div>
+								
+								</div>
+								<div class="fila">
+									<div class="celda tipo">
+										<div class="celda sub_tipo">
+											<input class="radio" name="Tocino" id="tocino_rad_1" type="radio" value="4.75" />$4.75
+										</div>
+										<div class="celda sub_tipo">
+											<input class="radio" name="Tocino" id="tocino_rad_2" type="radio" value="14.00" />$14.00
+										</div>
+										<div class="celda sub_tipo">
+											<input class="radio" name="Tocino" id="tocino_rad_3" type="radio" value="17.30" />$17.30
+										</div>
+										
+									</div>
+
+								</div>
+								<div class="fila">
+									<div class="celda cantidad">
+										<div class="valor_cantidad">
+											<input type='button' value='-' id='tocino_qtyminus' field='tocino_quantity' />
+											<input id="tocino_cant" type="text" name="tocino_quantity" value="0" />
+											<input type='button' value='+' id='tocino_qtyplus' field='tocino_quantity' />
+										</div>
+									</div>
+								</div>
+								<div class="fila">
+									<div class="celda borrar">
+										<div class="borrar">
+											<input class="subtotal" id="tocino_subtotal" type="hidden" name="tocino_subtotal" value="0">
+											<button type="button" class="borrar" id="tocino_clear" name="quitar_tocino" value="C">X</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+
+
+
+
+
+
+
+<!-- SECCION PIZZA SUPER TITTUS -->
+							<div class="columna">
+								<div class="fila">
+									<div class="celda nombre">
+										<div class="valor_nombre">
+											<input id="supertittus" class="check" type="checkbox" name="supertittus_pizza" value="9">Tittus Super Tittus
+										</div>
+									</div>
+								
+								</div>
+								<div class="fila">
+									<div class="celda tipo">
+										<div class="celda sub_tipo">
+											<input class="radio" name="Supertittus" id="supertittus_rad_1" type="radio" value="5.30" />$5.30
+										</div>
+										<div class="celda sub_tipo">
+											<input class="radio" name="Supertittus" id="supertittus_rad_2" type="radio" value="14.90" />$14.90
+										</div>
+										<div class="celda sub_tipo">
+											<input class="radio" name="Supertittus" id="supertittus_rad_3" type="radio" value="18.50" />$18.50
+										</div>
+										
+									</div>
+
+								</div>
+								<div class="fila">
+									<div class="celda cantidad">
+										<div class="valor_cantidad">
+											<input type='button' value='-' id='supertittus_qtyminus' field='supertittus_quantity' />
+											<input id="supertittus_cant" type="text" name="supertittus_quantity" value="0" />
+											<input type='button' value='+' id='supertittus_qtyplus' field='supertittus_quantity' />
+										</div>
+									</div>
+								</div>
+								<div class="fila">
+									<div class="celda borrar">
+										<div class="borrar">
+											<input class="subtotal" id="supertittus_subtotal" type="hidden" name="supertittus_subtotal" value="0">
+											<button type="button" class="borrar" id="supertittus_clear" name="quitar_supertittus" value="C">X</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+
+
+<!-- SECCION PIZZA VEGETARIANA -->
+							<div class="columna">
+								<div class="fila">
+									<div class="celda nombre">
+										<div class="valor_nombre">
+											<input id="vegetariana" class="check" type="checkbox" name="vegetariana_pizza" value="9">Tittus Vegetariana
+										</div>
+									</div>
+								
+								</div>
+								<div class="fila">
+									<div class="celda tipo">
+										<div class="celda sub_tipo">
+											<input class="radio" name="Vegetariana" id="vegetariana_rad_1" type="radio" value="3.90" />$3.90
+										</div>
+										<div class="celda sub_tipo">
+											<input class="radio" name="Vegetariana" id="vegetariana_rad_2" type="radio" value="13.00" />$13.00
+										</div>
+										<div class="celda sub_tipo">
+											<input class="radio" name="Vegetariana" id="vegetariana_rad_3" type="radio" value="15.50" />$15.50
+										</div>
+										
+									</div>
+
+								</div>
+								<div class="fila">
+									<div class="celda cantidad">
+										<div class="valor_cantidad">
+											<input type='button' value='-' id='vegetariana_qtyminus' field='vegetariana_quantity' />
+											<input id="vegetariana_cant" type="text" name="vegetariana_quantity" value="0" />
+											<input type='button' value='+' id='vegetariana_qtyplus' field='vegetariana_quantity' />
+										</div>
+									</div>
+								</div>
+								<div class="fila">
+									<div class="celda borrar">
+										<div class="borrar">
+											<input class="subtotal" id="vegetariana_subtotal" type="hidden" name="vegetariana_subtotal" value="0">
+											<button type="button" class="borrar" id="vegetariana_clear" name="quitar_vegetariana" value="C">X</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+
+<!-- SECCION PIZZA JAMON -->
+							<div class="columna">
+								<div class="fila">
+									<div class="celda nombre">
+										<div class="valor_nombre">
+											<input id="jamon" class="check" type="checkbox" name="jamon_pizza" value="9">Tittus Jamón
+										</div>
+									</div>
+								
+								</div>
+								<div class="fila">
+									<div class="celda tipo">
+										<div class="celda sub_tipo">
+											<input class="radio" name="Jamon" id="jamon_rad_1" type="radio" value="3.75" />$3.75
+										</div>
+										<div class="celda sub_tipo">
+											<input class="radio" name="Jamon" id="jamon_rad_2" type="radio" value="11.50" />$11.50
+										</div>
+										<div class="celda sub_tipo">
+											<input class="radio" name="Jamon" id="jamon_rad_3" type="radio" value="13.99" />$13.99
+										</div>
+										
+									</div>
+
+								</div>
+								<div class="fila">
+									<div class="celda cantidad">
+										<div class="valor_cantidad">
+											<input type='button' value='-' id='jamon_qtyminus' field='jamon_quantity' />
+											<input id="jamon_cant" type="text" name="jamon_quantity" value="0" />
+											<input type='button' value='+' id='jamon_qtyplus' field='jamon_quantity' />
+										</div>
+									</div>
+								</div>
+								<div class="fila">
+									<div class="celda borrar">
+										<div class="borrar">
+											<input class="subtotal" id="jamon_subtotal" type="hidden" name="jamon_subtotal" value="0">
+											<button type="button" class="borrar" id="jamon_clear" name="quitar_jamon" value="C">X</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+
+							<div class="columna">
+								<div class="fila">
+									<div class="celda nombre">
+										Adicionales
+									</div>
+								
+								</div>
+								<div class="fila">
+									<div class="celda tipo">
+										<div class="celda sub_tipo">
+											
+										</div>
+										<div class="celda sub_tipo">
+											
+										</div>
+										<div class="celda sub_tipo">
+											
+										</div>
+										
+									</div>
+
+								</div>
+								<div class="fila">
+									<div class="celda cantidad">
+												<div class="valor_cantidad">
+													Cant.
+												</div>
+									</div>
+								</div>
+
+								<div class="fila">
+									<div class="celda borrar">
+										<div class="borrar"></div>
+									</div>
+								</div>
+							</div>
+
+
+
+
+<!-- SECCION ENSALADA -->
+							<div class="columna">
+								<div class="fila">
+									<div class="celda nombre">
+										<div class="valor_nombre">
+											<input id="ensalada" class="check" type="checkbox" name="ensalada_pizza" value="9">Tittus Ensalada
+										</div>
+									</div>
+								
+								</div>
+								<div class="fila">
+									<div class="celda tipo">
+										<div class="celda sub_tipo">
+											<input class="radio" name="Ensalada" id="ensalada_rad_1" type="radio" value="3.75" />$3.75
+										</div>
+			
+									</div>
+
+								</div>
+								<div class="fila">
+									<div class="celda cantidad">
+										<div class="valor_cantidad">
+											<input type='button' value='-' id='ensalada_qtyminus' field='ensalada_quantity' />
+											<input id="ensalada_cant" type="text" name="ensalada_quantity" value="0" />
+											<input type='button' value='+' id='ensalada_qtyplus' field='ensalada_quantity' />
+										</div>
+									</div>
+								</div>
+								<div class="fila">
+									<div class="celda borrar">
+										<div class="borrar">
+											<input class="subtotal" id="ensalada_subtotal" type="hidden" name="ensalada_subtotal" value="0">
+											<button type="button" class="borrar" id="ensalada_clear" name="quitar_ensalada" value="C">X</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+
+
+
+<!-- SECCION PAN AJO ESPECIAL -->
+							<div class="columna">
+								<div class="fila">
+									<div class="celda nombre">
+										<div class="valor_nombre">
+											<input id="panajoespecial" class="check" type="checkbox" name="panajoespecial_pizza" value="9">Tittus Pan de Ajo Especial<br />(4 unidades)
+										</div>
+									</div>
+								
+								</div>
+								<div class="fila">
+									<div class="celda tipo">
+										<div class="celda sub_tipo">
+											<input class="radio" name="Panajoespecial" id="panajoespecial_rad_1" type="radio" value="2.50" />$2.50
+										</div>
+			
+									</div>
+
+								</div>
+								<div class="fila">
+									<div class="celda cantidad">
+										<div class="valor_cantidad">
+											<input type='button' value='-' id='panajoespecial_qtyminus' field='panajoespecial_quantity' />
+											<input id="panajoespecial_cant" type="text" name="panajoespecial_quantity" value="0" />
+											<input type='button' value='+' id='panajoespecial_qtyplus' field='panajoespecial_quantity' />
+										</div>
+									</div>
+								</div>
+								<div class="fila">
+									<div class="celda borrar">
+										<div class="borrar">
+											<input class="subtotal" id="panajoespecial_subtotal" type="hidden" name="panajoespecial_subtotal" value="0">
+											<button type="button" class="borrar" id="panajoespecial_clear" name="quitar_panajoespecial" value="C">X</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+
+
+
+
+
+
+
+
+<!-- SECCION PAN AJO -->
+							<div class="columna">
+								<div class="fila">
+									<div class="celda nombre">
+										<div class="valor_nombre">
+											<input id="panajo" class="check" type="checkbox" name="panajo_pizza" value="9">Tittus Pan de Ajo (4 unidades)
+										</div>
+									</div>
+								
+								</div>
+								<div class="fila">
+									<div class="celda tipo">
+										<div class="celda sub_tipo">
+											<input class="radio" name="Panajo" id="panajo_rad_1" type="radio" value="1.50" />$1.50
+										</div>
+			
+									</div>
+
+								</div>
+								<div class="fila">
+									<div class="celda cantidad">
+										<div class="valor_cantidad">
+											<input type='button' value='-' id='panajo_qtyminus' field='panajo_quantity' />
+											<input id="panajo_cant" type="text" name="panajo_quantity" value="0" />
+											<input type='button' value='+' id='panajo_qtyplus' field='panajo_quantity' />
+										</div>
+									</div>
+								</div>
+								<div class="fila">
+									<div class="celda borrar">
+										<div class="borrar">
+											<input class="subtotal" id="panajo_subtotal" type="hidden" name="panajo_subtotal" value="0">
+											<button type="button" class="borrar" id="panajo_clear" name="quitar_panajo" value="C">X</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+
+
+<!-- SECCION ALITAS BBQ -->
+							<div class="columna">
+								<div class="fila">
+									<div class="celda nombre">
+										<div class="valor_nombre">
+											<input id="alitasbbq" class="check" type="checkbox" name="alitasbbq_pizza" value="9">Alitas BBQ
+										</div>
+									</div>
+								
+								</div>
+								<div class="fila">
+									<div class="celda tipo">
+										<div class="celda sub_tipo">
+											<input class="radio" name="Alitasbbq" id="alitasbbq_rad_1" type="radio" value="4.50" />$4.50
+										</div>
+			
+									</div>
+
+								</div>
+								<div class="fila">
+									<div class="celda cantidad">
+										<div class="valor_cantidad">
+											<input type='button' value='-' id='alitasbbq_qtyminus' field='alitasbbq_quantity' />
+											<input id="alitasbbq_cant" type="text" name="alitasbbq_quantity" value="0" />
+											<input type='button' value='+' id='alitasbbq_qtyplus' field='alitasbbq_quantity' />
+										</div>
+									</div>
+								</div>
+								<div class="fila">
+									<div class="celda borrar">
+										<div class="borrar">
+											<input class="subtotal" id="alitasbbq_subtotal" type="hidden" name="alitasbbq_subtotal" value="0">
+											<button type="button" class="borrar" id="alitasbbq_clear" name="quitar_alitasbbq" value="C">X</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+
+
+							<div class="columna">
+								<div class="fila">
+									<div class="celda nombre">
+										Bebidas
+									</div>
+								
+								</div>
+								<div class="fila">
+									<div class="celda tipo">
+										<div class="celda sub_tipo">
+											
+										</div>
+										<div class="celda sub_tipo">
+											
+										</div>
+										<div class="celda sub_tipo">
+											
+										</div>
+										
+									</div>
+
+								</div>
+								<div class="fila">
+									<div class="celda cantidad">
+												<div class="valor_cantidad">
+													Cant.
+												</div>
+									</div>
+								</div>
+
+								<div class="fila">
+									<div class="celda borrar">
+										<div class="borrar"></div>
+									</div>
+								</div>
+							</div>
+
+
+
+
+<!-- SECCION GASEOSAS -->
+							<div class="columna">
+								<div class="fila">
+									<div class="celda nombre">
+										<div class="valor_nombre">
+											<input id="gaseosa" class="check" type="checkbox" name="gaseosa_pizza" value="9">Gaseosa
+										</div>
+									</div>
+								
+								</div>
+								<div class="fila">
+									<div class="celda tipo">
+										<div class="celda sub_tipo">
+											<input class="radio" name="Gaseosa" id="gaseosa_rad_1" type="radio" value="2.90" />$2.90<br/> 3 litros
+										</div>
+										<div class="celda sub_tipo">
+											<input class="radio" name="Gaseosa" id="gaseosa_rad_2" type="radio" value="1.80" />$1.80<br/> 2 litros
+										</div>
+										<div class="celda sub_tipo">
+											<input class="radio" name="Gaseosa" id="gaseosa_rad_3" type="radio" value="1.75" />$1.75<br/> 1.75 litros
+										</div>
+										
+									</div>
+
+								</div>
+								<div class="fila">
+									<div class="celda cantidad">
+										<div class="valor_cantidad">
+											<input type='button' value='-' id='gaseosa_qtyminus' field='gaseosa_quantity' />
+											<input id="gaseosa_cant" type="text" name="gaseosa_quantity" value="0" />
+											<input type='button' value='+' id='gaseosa_qtyplus' field='gaseosa_quantity' />
+										</div>
+									</div>
+								</div>
+								<div class="fila">
+									<div class="celda borrar">
+										<div class="borrar">
+											<input class="subtotal" id="gaseosa_subtotal" type="hidden" name="gaseosa_subtotal" value="0">
+											<button type="button" class="borrar" id="gaseosa_clear" name="quitar_gaseosa" value="C">X</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+
+
+						<p>Sabor de gaseosa</p>
+						<input type="text" name="sabor_gaseosa" /><br/><br/>
+						<p>Observaciones a su pedido</p>
+						<textarea style="width:400px; height:250px;" name="aclaraciones_pedido" /></textarea>
+
+
+
+
+
+
+
+
+
+
+
+							</div>
+
+
+						</div>
+
+<br/><br/>
+
+
+
+					</form>
+
+
+				</div>
+		
+	</div>
+</div>
+
+
+
+  <div id="footer">
+    <img src="img/destacado_amas_pizza.png" />
+  </div>
+
+</body>
+
+
+</html>
